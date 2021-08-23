@@ -1,0 +1,17 @@
+.Services{
+    width : 100%;
+    max-height: auto;
+    display: flex;
+
+
+}
+.serviceimg{
+    width: 20rem;
+    height: 20rem;
+    }
+.service{
+    text-align: center;
+    width: 50rem;
+    margin: auto;
+    font-size: large;
+}

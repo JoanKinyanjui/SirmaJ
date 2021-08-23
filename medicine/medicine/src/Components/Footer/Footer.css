@@ -1,0 +1,28 @@
+.Footer{
+    width: 100%;
+    height: max-content;
+    background-color: rgb(69, 126, 64);
+    color: black;
+    display: flex;
+    font-family: system;
+}
+.column1{
+    margin: auto;
+    padding-top: 1rem;
+}
+.column2{
+    list-style-type: none;
+    text-align: center;
+}
+.column3{
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+.hr{
+    width: 100%;
+    height: max-content;
+    background-color: rgb(148, 179, 126);
+    text-align: center;
+   color: black;
+
+}

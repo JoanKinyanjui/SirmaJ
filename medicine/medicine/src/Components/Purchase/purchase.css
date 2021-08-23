@@ -1,0 +1,29 @@
+.pills{
+    font-family: Goudy Stout;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+
+}
+.Purchase{
+    margin: auto;
+    text-align: center;
+    display: flex;
+}
+.productcard{
+    width: 40rem;
+    height: 27rem;
+    text-align: center;
+    margin: auto;
+}
+.cardaction{
+    margin: auto;
+}
+.fas{
+    color: green;
+}
+.iconbutton{
+    padding: 10px;
+}

@@ -1,0 +1,25 @@
+.LoginBox{
+    margin: auto;
+ text-align: center;
+ align-content: center;
+ padding: 2rem;
+ width: 60rem;
+ height: auto;
+
+}
+.Login{
+ margin: auto;
+ box-sizing: border-box;
+}
+.icon{
+ text-align: center;
+ align-items: center;
+ color: green;
+ justify-content: center;
+}
+.LoginWord {
+ font-weight: bold;
+ text-align: center;
+ font-size: 25px;
+ color: black;
+}
