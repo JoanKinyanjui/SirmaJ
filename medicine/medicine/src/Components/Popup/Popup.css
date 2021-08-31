@@ -1,0 +1,24 @@
+.Popup{
+position: fixed;
+width: 900px;
+height: 250px;
+background-color: rgb(35, 122, 18);
+display: flex;
+align-content: center;
+justify-content: center;
+
+}
+.inner{
+    position: relative;
+    padding: 32px;
+    width: 100%;
+    max-width: 600px;
+background-color: rgb(117, 172, 40);
+ 
+}
+.inner-btn{
+    position: absolute;
+    top :16px;
+    right: 16px;
+
+}

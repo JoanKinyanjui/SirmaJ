@@ -41,7 +41,7 @@ function  Footer(){
 
         </div>
          <div className='hr'>
- &copy;{new Date().getFullYear()}|Home Spur|All rights preserved|Terms of Service|Privacy
+ &copy;{new Date().getFullYear()}|Doctor Herb|All rights preserved|Terms of Service|Privacy
             </div>
     </>
     )

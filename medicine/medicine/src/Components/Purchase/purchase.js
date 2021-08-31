@@ -1,48 +1,31 @@
-import React from 'react';
-import { useCart } from 'react-use-cart';
+import React from 'react'
 import './purchase.css';
-import Cart from '../Cart/Cart';
+import { useCart } from 'react-use-cart';
+import Cart from './Cart';
 
-const Product=[{
-    id: 1,
-    image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh6cYj1a4UAPVVK3_Q8Jy4jRZYybnJ3xBEQQ&usqp=CAU',
-    name: "Malm",
-    price: 'ksh 9900',
-    desc: 'Hot Sale 50-1000g Increase Sexual Desire',
-    quantity: 1
 
-},
-{
-    id: 1,
-    image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh6cYj1a4UAPVVK3_Q8Jy4jRZYybnJ3xBEQQ&usqp=CAU',
-    name: "Malm",
-    price: 'ksh 9900',
-    desc: 'Hot Sale 50-1000g Increase Sexual Desire',
-    quantity: 1
 
-}];
 function Purchase(){
-const {addItem}= useCart;
-    return(<>
-    <div className='pills'>Order Now</div>
-        <div className='Purchase'>
-            
-         {Product.map((product,id) =>{
-             return(
-                <div className='productcard'>
-                 <img src={product.image}/>
-                 <h4>{product.name}</h4>
-                 <p>{product.desc}</p>
-                 <h3> {product.price}</h3>
-                 <button onClick={() => addItem(product)}>Add to cart</button>
+    const {addItem} = useCart();
+ 
+   
 
-                 </div>
-             )
-         })}
-        </div>
-   <Cart />
-   </>
-    )
+          return(<div className='Pills'>
+<div className='pills'>
+<div className='Purchase' id='1'>
+<h4>Sirma Powder</h4>
+<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh6cYj1a4UAPVVK3_Q8Jy4jRZYybnJ3xBEQQ&usqp=CAU'/>
+<p>Hot Sale 50-1000g Increase Sexual Desire</p>
+<h4>Ksh 1500</h4>
+<button onClick={addItem}> Add to Cart <i class="fas fa-cart-plus"></i></button>
+
+</div>
+</div>
+<Cart />
+</div>
+)
+              
+    
 
 };
 export default Purchase;
