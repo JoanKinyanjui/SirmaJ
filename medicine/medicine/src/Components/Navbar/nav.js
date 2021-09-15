@@ -21,18 +21,6 @@ function Nav(){
                          )
                      }
                          )}
-                          <Link to='/account'>
-                        <li className='items'><i className="fas fa-user-circle fa-1.5x"></i></li>
-                    </Link>
-                    <Link to='/account'>
-                        <li className='items'>
-                            <IconButton>
-                                <Badge badgeContent={3} color='secondary'>
-                                 <ShoppingCart />  
-                                </Badge>
-                                </IconButton>
-                            </li>
-                    </Link>
                  </ul>
                </div>
             </nav>

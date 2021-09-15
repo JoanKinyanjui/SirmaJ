@@ -6,6 +6,7 @@ import Contactus from './Components/Contact Us/contact';
 import Faqs from './Components/Faqs/faqs';
 import Home from './Components/Home';
 
+
 function App() {
   return (
     <div className="App">
@@ -27,6 +28,7 @@ function App() {
                 <Route exact path='/signup'>
                     <Signup />
                 </Route >
+                
             </Switch>
 
         </div>
