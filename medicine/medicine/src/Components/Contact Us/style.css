@@ -1,0 +1,30 @@
+
+.Contact{
+    width: 100%;
+    display: block;
+}
+.contact{
+    width: 100vw;
+    display: table-cell;
+    vertical-align: middle;
+}
+.contactus{
+    text-align: center;
+    margin-top: 4rem;
+    font-family: System;
+
+}
+.a{
+text-decoration: none;
+color: black;
+}
+.grid-container{
+    display: grid;
+    width: 100% ;
+}
+.grid-item{
+    column-count: 4;
+    padding: 1rem;
+    background-color:  rgb(240, 221, 247);
+}
+

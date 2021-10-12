@@ -1,7 +1,7 @@
 .Footer{
     width: 100%;
     height: max-content;
-    background-color: rgb(128, 135, 119);
+    background-color: rgb(125, 121, 127);
     color: black;
     display: flex;
     font-family: system;
@@ -22,7 +22,7 @@
 .hr{
     width: 100%;
     height: max-content;
-    background-color: rgb(74, 83, 74);
+    background-color: rgb(125, 121, 127);
     text-align: center;
    color: black;
 

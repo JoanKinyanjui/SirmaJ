@@ -5,17 +5,24 @@ import {Button} from 'react-bootstrap';
 
 function About(){
 return(
-      <div className='About' style={{backgroundImage:' url(/images/another.jpg)'}}>
-        
-          <div className='about'>
- <h1>We Provide The TOP Most Medical Services</h1>
- <i class="fas fa-user-md fa-3x"></i>
- <div>
- <Button className='btn' >Make an Appointment</Button>
- <Button className='btn' >Read More</Button>
- </div>
-         </div>
+<div className='row'>
 
+      
+
+<div className='col-1'>
+ <h1>Beautiful Skin , Beautiful You</h1>
+ <div className='about1'>
+ <h6>The daily facial cream that visibly reveals radiant skin and leaves it glowing. </h6>
+ <h6> Anti-Aging Cream + Brightening Treatment + Dark Spot Remover</h6>
+ 
+ <Button className='btn' >Shop Now</Button>
+ </div>
+ </div>
+
+ <div className='col-2' 
+   style={{backgroundImage:' url(/background04.png)'}}>
+     
+         </div>
       </div>
     )
 };

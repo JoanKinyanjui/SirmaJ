@@ -1,23 +1,39 @@
-.About{
+.row{
+    box-sizing: border-box;
+    display :table;
     width: 100%;
-    height: 600px;
-    background-position: top ;
-    background-size: cover;
+    margin: auto;
+    height: 500px;
+}
+
+.col-2{
+    width: 50%;
+    height: auto;
+    background-position: right ;
+    background-size:100% 100%;
     background-repeat: no-repeat;
     display: table;
-
-}
-.about{
-    text-align: center;
+    border-radius: 50%;
     display: table-cell;
     vertical-align: middle;
-    margin-left: 6rem;
 
+}
+.col-1{
+    width: 50%;
+    margin-top: 12%;
+    vertical-align: middle;
+    text-align: left;
+    background-color: transparent;
+}
+.about1{
+    font-family: Script MT;
+    font-size: 19px;
+    justify-content:left;
 }
 .btn{
     padding: 10px;
     color: rgb(12, 8, 8);
-    background-color : rgb(128, 135, 119);;
+    background-color : rgb(146, 39, 196);
     border-radius: 10px;
     border: none;
     margin-right: 3rem;
@@ -25,7 +41,10 @@
 }
 .Works{
     margin: auto;
+    padding:20px;
     margin-top: 2rem;
+    background-color: rgb(240, 221, 247);
+    border-radius: 5px;
 }
 
 .works{
