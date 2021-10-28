@@ -1,26 +1,47 @@
 .Popup{
 position: fixed;
-height: 250px;
 background-color: rgb(167, 111, 193);
-display: flex;
 align-content: center;
 justify-content: center;
-width: auto;
-margin: auto;
+width: max-content;
+margin-left: 8.33%;
+height: max-content;
 
 
 }
+.input{
+    border-radius: 10px 0px 0px 10px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    background-color: whitesmoke;
+    color: rgb(7, 6, 7);
+  }
 .inner{
     position: relative;
-    padding: 60px;
+    padding: 40px;
     width: 100%;
-    max-width: 600px;
-background-color: rgb(115, 101, 122);
+   
+background-color: rgb(122, 100, 133);
+
+
  
 }
 .inner-btn{
     position: absolute;
-    top :16px;
+    top :10px;
     right: 16px;
 
+}
+@media screen and (max-width:600px) {
+    .Popup{
+        margin-left: 0%;
+    }
+     .inner{
+            position: relative;
+            padding: 40px;
+            width:100%;
+        background-color: rgb(122, 100, 133);
+        }
+    
 }

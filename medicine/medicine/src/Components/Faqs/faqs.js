@@ -15,10 +15,13 @@ function Faqs() {
             <h4>FREQUENTLY ASKED QUESTIONS</h4>
             </p>
             <div className='question'>
-            What is my skin type?<br />
- We put together a quiz that asks specific questions that regard your skin. You'd be surprised how many things need to be taken under consideration when figuring it all out! We made the process simple and fast!
+            How long before I start to see results?<br />
+Results can vary by individual and what products you are using. How consistent you are with your skincare routine
+ plays an important role in the success of your results. At Gloww , we love to 
+ under-promise and over-deliver, thus we give a baseline of 7days-14days for you to note the change in the
+ the lightening of the spots,uniformity of the skin tone and overall glow. Results may be seen sooner than this baseline.
 
-Take this skin type quiz if you're wondering what skin type you fall under ! :D
+
 
 
             </div>

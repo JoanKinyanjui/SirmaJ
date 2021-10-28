@@ -13,7 +13,6 @@
     width: 560px;
     height: max-content;
     
-    
 
 }
 .gloww{
@@ -25,4 +24,18 @@
     text-align: center;
     padding: 0px;
 
+}
+.text a i{
+    margin-right: 2rem;
+}
+@media only screen and (max-width:768px){
+    .pills{
+        font-family: System;
+        font-size: 15px;
+        box-shadow: 3px 3px 4px rgb(27, 23, 29);
+        width: 360px;
+        height: max-content;
+        
+    
+    }
 }

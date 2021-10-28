@@ -26,8 +26,8 @@ useEffect( ()=>{
        <Popup trigger={timedPopup} setTrigger={setTimedPopup}>
       <h5>Subscribe to our Email</h5>
       <form>
-                <label>Email Address</label>
-                <input type='text' name='email' placeholder='@gmail.com'/>
+                
+                <input type='text' className='input' name='email' placeholder='@gmail.com'/>
                 <button className='btn' type='submit'>Submit</button>
             </form>
        </Popup>

@@ -15,7 +15,11 @@ function Purchase(){
 <img  className='gloww' src={buy03}/>
 <p>Hot Sale 50g eventone face cream</p>
 <h4>Ksh 500</h4>
-<a href='https://wa.me/254790236990'><i class="fab fa-whatsapp-square fa-4x"></i></a>
+<div className='text'>
+<a href='https://wa.me/254793518270'><i class="fab fa-whatsapp-square fa-3x"></i></a>
+<a href='tel:+254790236990'><i class="fas fa-phone-square-alt fa-3x"></i> </a>
+</div>
+
 </div>
 </div>
 

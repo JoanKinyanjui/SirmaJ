@@ -15,7 +15,7 @@ function Contactus(){
               </div>
 
               <div className='contactus'>
-                  <a className='a' href='tel:+254790236990'><h5>Call:+254790236990</h5></a>
+                  <a className='a' href='tel:+254790236990'><h5>Call:+254793518270</h5></a>
               </div>
 
               <div className='contactus'>

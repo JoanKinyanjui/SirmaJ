@@ -6,11 +6,10 @@ function  Footer(){
         <>
         <div className='Footer'>
             <div className='column1'>
-                <h4>
-                   Doctor Herb                </h4>
+                <h4>    Gloww     </h4>
                 <ul className='column2'>
-                    <li className='column3'>+254790236990</li>
-                    <li className='column3'>doctorherbke@gmail.com</li>
+                    <li className='column3'>+254793518270</li>
+                    <li className='column3'>glowwke@gmail.com</li>
                     <li className='column3'>13997-00100 NRB</li>
                     <li className='column3'>Office Hours </li>
                     <li className='column3'>Mon-Fri 7:00am -8:00pm</li>
@@ -41,7 +40,7 @@ function  Footer(){
 
         </div>
          <div className='hr'>
- &copy;{new Date().getFullYear()}|Doctor Herb|All rights preserved|Terms of Service|Privacy
+ &copy;{new Date().getFullYear()}|Gloww|All rights preserved|Terms of Service|Privacy
             </div>
     </>
     )

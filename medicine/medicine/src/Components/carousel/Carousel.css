@@ -29,8 +29,7 @@
       text-align: center;
       
   }
- 
-@media  screen and (max-width:400px) {
+ @media  screen and (max-width:400px) {
   .item{
     height: 15rem;
     width: 34rem;
